@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class ResponsePatientRequest {
+public class PatientResponse {
     private final Long id;
     private final String name;
     private final String email;
